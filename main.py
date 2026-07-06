@@ -3,6 +3,7 @@ import csv
 totals = {}
 net_worth = 0
 
+
 with open("accounts.csv", newline="") as file:
     reader = csv.DictReader(file)
 
